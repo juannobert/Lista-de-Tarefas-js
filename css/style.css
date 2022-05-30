@@ -26,6 +26,7 @@ ul {
 .list {
   background-color: #f8f8ec;
   padding: 20px 10px;
+  width: 70%;
 }
 
 .title {
@@ -39,7 +40,7 @@ ul {
 }
 
 #input-name {
-  width: 400px;
+  width: 100%;
   padding: 3px;
   outline: none;
 }
