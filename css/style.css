@@ -3,6 +3,8 @@ body {
   padding: 0;
   box-sizing: border-box;
   background-color: #8ba6ac;
+  font-family: 'Poppins';
+
 }
 
 
@@ -27,7 +29,6 @@ ul {
 }
 
 .title {
-  font-family: 'Poppins';
   text-align: center;
   color: #457d97;
 }
@@ -38,11 +39,32 @@ ul {
 }
 
 #input-name {
+  width: 400px;
   padding: 3px;
   outline: none;
 }
 
+.tarefas {
+  margin-top: 10px;
+}
+
+.container-btn {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.concluidas {
+  margin-top: 20px;
+}
+
+.concluidas ul li {
+  background: #2ecc71;
+  padding: 3px;
+}
+
 .btn {
+  float: right;
   appearance: none;
   -webkit-appearance: none;
   font-family: sans-serif;
@@ -53,23 +75,29 @@ ul {
   -webkit-transition: background-color 100ms linear;
   -ms-transition: background-color 100ms linear;
   transition: background-color 100ms linear;
+  color: #ffffff;
+
 
 }
 
 .btn-primary {
+
   background: #3498db;
-  color: #ffffff;
+
+}
+
+.btn-success {
+  background: #2ecc71;
+
 }
 
 .btn-danger {
   background: #e74c3c;
-  color: #ffffff;
 }
 
 li {
   margin: 10px 0;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -87,6 +115,5 @@ li {
 }
 
 .warning-text {
-  font-family: 'Poppins';
   color: #fffffd;
 }

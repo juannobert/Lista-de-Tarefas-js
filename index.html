@@ -20,11 +20,17 @@
         <div class="warning-container"><h3 class="warning-text">Digite um nome valido</h3></div>
         <h3 class="title">Lista de tarefas</h3>
         <div class="form">
-          <input type="text" name="nome" id="input-name" placeholder="Digite o nome da tarefa..." >
+          <input type="text" name="nome" id="input-name" maxlength="18" placeholder="Digite o nome da tarefa..." >
           <button onclick="app.enviarDados()" class="btn btn-primary">Enviar</button>
         </div>
         <div class="tarefas">
-          <ul>
+          A fazer:
+          <ul class="list-tarefas">
+          </ul>
+        </div>
+        <div class="concluidas">
+          Concluidas:
+          <ul class="list-concluidas">
           </ul>
         </div>
       </div>
