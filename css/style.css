@@ -24,9 +24,9 @@ ul {
 }
 
 .list {
+  min-width: 20%;
   background-color: #f8f8ec;
   padding: 20px 10px;
-  width: 70%;
 }
 
 .title {
@@ -50,6 +50,7 @@ ul {
 }
 
 .container-btn {
+  flex: 1;
   width: 100%;
   display: flex;
   justify-content: flex-end;
@@ -65,13 +66,11 @@ ul {
 }
 
 .btn {
-  float: right;
   appearance: none;
   -webkit-appearance: none;
-  font-family: sans-serif;
   cursor: pointer;
   padding: 12px;
-  min-width: 100px;
+  min-width: 70px;
   border: 0px;
   -webkit-transition: background-color 100ms linear;
   -ms-transition: background-color 100ms linear;
@@ -97,9 +96,12 @@ ul {
 }
 
 li {
+  width: 100%;
   margin: 10px 0;
   display: flex;
   align-items: center;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 .warning-container {
